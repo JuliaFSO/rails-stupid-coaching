@@ -1,0 +1,60 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ $gray: #F4F4F4;
+
+body {
+   background: $gray; // Using this variable
+   text-align: left;
+   margin-top: 30px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 25px;
+    color: black;
+}
+
+.question {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    &:hover {
+    background-color: rgb(229, 235, 152);
+    padding: 10px;
+   }
+}
+
+.answer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    &:hover {
+    background-color: rgb(229, 235, 152);
+    padding: 10px;
+   }
+}
+
+.button {
+    background-color: #337ab7;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   color: #337ab7;
+   font-size: 14px;
+     &:hover {
+     text-decoration: underline
+   }
+}
+
+form {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
